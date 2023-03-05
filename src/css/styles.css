@@ -18,3 +18,57 @@ body {
   max-width: 320px;
   margin-bottom: 16px;
 }
+
+h2,
+p,
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  -webkit-clip-path: inset(50%);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+.country-list {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.country-list-item {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.div-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.country-descr {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 5px;
+}
+
+.country-text {
+  font-weight: bold;
+}
